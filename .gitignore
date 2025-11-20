@@ -1,0 +1,38 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+.vs/
+Bin/
+Obj/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+_ReSharper*/
+*.DotSettings.user
+
+# Visual Studio Code settings
+.vscode/
+
+# Resharper
+_ReSharper*/
+
+# Build results
+*/bin/
+*/obj/
+
+# NuGet
+*.nupkg
+packages/
+
+# Rider
+.idea/
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Others
+*.log
+
+# Keep designer-generated resources
+*.resx
