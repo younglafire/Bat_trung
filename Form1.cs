@@ -127,6 +127,7 @@ namespace Bat_trung
             {
                 GameTimer.Stop();
                 MessageBox.Show("Thất bại\n Điểm số của bạn: " + score);
+                RestartGame();
             }
             //increase speed 
             if (score > 0 && score % 10 == 0)
